@@ -19,10 +19,8 @@ Temporary Items
 # Icon must end with two \r
 Icon
 
-
 # Thumbnails
 ._*
-
 
 # Vim
 [._]*.s[a-w][a-z]
@@ -66,13 +64,17 @@ build/Release
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
 
-
-
 # Commit your application's lock file http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file
 # You may choose to ignore a library lock file http://getcomposer.org/doc/02-libraries.md#lock-file
 # composer.lock
 
-
 # Other, add your own ignored things here.
 .idea/
 release
+# .bowerrc
+# .editorconfig
+# .eslintrc.js
+# .eslintrc.json
+# .sass-lint.yml
+# .travis.yml
+# .yo-rc.json
