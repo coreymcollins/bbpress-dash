@@ -10,7 +10,7 @@
 
 ## Description ##
 
-Adding Dashboard functionality to bbPress. This includes the ability to save Drafts and Preview posts, as well as additional functionality for the Participant forum user role.
+Adding Dashboard functionality to bbPress. This includes the ability to save Drafts and Preview Topics, as well as additional functionality for the Participant forum user role.
 
 By default, in bbPress, the Participant forum user role has no access to Topics at all in the dashboard, and bbPress disables the Save Draft button all together via JavaScript. This plugin allows for all users with at least the bbPress Participant role to create Topics, save Topic Drafts, and Preview Topics in the Dashboard using native WordPress functionality.
 
