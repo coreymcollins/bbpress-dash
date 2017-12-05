@@ -1,0 +1,19 @@
+{
+  "generator-plugin-wp": {
+    "name": "bbPress Dash",
+    "homepage": "https://www.coreymcollins.com",
+    "description": "Adding Dashboard functionality to bbPress.",
+    "version": "1.0.0",
+    "author": "Corey M Collins",
+    "authoremail": "coreymcollins@gmail.com",
+    "authorurl": "https://www.coreymcollins.com",
+    "license": "GPLv2",
+    "slug": "bbpress-dash",
+    "classname": "BbPress_Dash",
+    "mainclassname": "BbPress_Dash",
+    "classprefix": "BPD_",
+    "prefix": "bbpress_dash",
+    "year": 2017,
+    "currentVersionWP": "4.7.2"
+  }
+}

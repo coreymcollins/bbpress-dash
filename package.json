@@ -1,0 +1,37 @@
+{
+  "name": "bbpress-dash",
+  "version": "1.0.0",
+  "description": "Adding Dashboard functionality to bbPress.",
+  "main": "Gulpfile.js",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "~2",
+    "del": "~3",
+    "eslint": "~4",
+    "eslint-config-wordpress": "~2",
+    "glob": "~7",
+    "gulp": "~3",
+    "gulp-babel": "~7",
+    "gulp-cheerio": "~0",
+    "gulp-concat": "~2",
+    "gulp-eslint": "~4",
+    "gulp-notify": "~3",
+    "gulp-plumber": "~1",
+    "gulp-rename": "~1",
+    "gulp-sort": "~2",
+    "gulp-sourcemaps": "~2",
+    "gulp-uglify": "~3",
+    "gulp-util": "~3",
+    "gulp-wp-pot": "~2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"No test specified\""
+  },
+  "author": {
+    "name": "Corey M Collins",
+    "url": "https://www.coreymcollins.com"
+  },
+  "license": "GPL-3.0"
+}

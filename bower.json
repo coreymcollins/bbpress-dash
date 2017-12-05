@@ -1,0 +1,18 @@
+{
+  "name": "bbpress-dash",
+  "description": "Adding Dashboard functionality to bbPress.",
+  "license": "GPLv2",
+  "authors": [
+    "Corey M Collins"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
