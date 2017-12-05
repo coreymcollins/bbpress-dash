@@ -1,18 +1,18 @@
 # bbPress Dash #
-**Contributors:**      Corey M Collins
-**Donate link:**       https://www.coreymcollins.com
-**Tags:**
-**Requires at least:** 4.4
-**Tested up to:**      4.7.2
-**Stable tag:**        1.0.0
-**License:**           GPLv2
-**License URI:**       http://www.gnu.org/licenses/gpl-2.0.html
+**Contributors:**      Corey M Collins  
+**Donate link:**       https://www.coreymcollins.com  
+**Tags:**              bbpress  
+**Requires at least:** 4.4  
+**Tested up to:**      4.9.1  
+**Stable tag:**        1.0.0  
+**License:**           GPLv2  
+**License URI:**       http://www.gnu.org/licenses/gpl-2.0.html  
 
 ## Description ##
 
-Adding Dashboard functionality to bbPress.
+Adding Dashboard functionality to bbPress. This includes the ability to save Drafts and Preview posts, as well as additional functionality for the Participant forum user role.
 
-By default, in bbPress, this user role has no access to Topics at all in the dashboard, and bbPress disables the Save Draft button all together via JavaScript. This plugin allows for users with the bbPress Participant role to create Topics, save Topic Drafts, and Preview Topics in the Dashboard using native WordPress functionality.
+By default, in bbPress, the Participant forum user role has no access to Topics at all in the dashboard, and bbPress disables the Save Draft button all together via JavaScript. This plugin allows for all users with at least the bbPress Participant role to create Topics, save Topic Drafts, and Preview Topics in the Dashboard using native WordPress functionality.
 
 ## Installation ##
 
