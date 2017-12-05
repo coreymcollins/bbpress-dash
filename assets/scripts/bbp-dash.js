@@ -20,13 +20,15 @@ window.topicPreviewStopper = {};
 		app.$c = {
 			window: $(window),
 			forumSelector: $( '#parent_id' ),
-			previewButton: $( '#post-preview' )
+			previewButton: $( '#post-preview' ),
+			contentEditor: $( '.wp-editor-area' )
 		};
 	};
 
 	// Combine all events
 	app.bindEvents = function() {
 		app.$c.forumSelector.on( 'change', app.maybeEnablePreviewButton );
+		app.$c.contentEditor.on( 'keyup', app.maybeEnablePreviewButton );
 		app.$c.window.on( 'load', app.disablePreviewButton );
 	};
 
@@ -39,7 +41,7 @@ window.topicPreviewStopper = {};
 	app.maybeEnablePreviewButton = function() {
 
 		// If no value, disable the button.
-		if ( ! $( this ).val() ) {
+		if ( ! app.$c.forumSelector.val() ) {
 			app.disablePreviewButton();
 		} else {
 			app.$c.previewButton.removeClass( 'disabled' );
